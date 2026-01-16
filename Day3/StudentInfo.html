@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Information Page </title>
+</head>
+<!-- To give border to our table I use this the CSS border property. I have used the border collapse property to avoid double border-->
+<style>  table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse; 
+}
+</style>
+<body>
+    <h1>Student Infomation Page</h1>
+
+    <h2>Student Details</h2>
+    <ul>
+    <p> <b>Name:</b>Muhammad Ammar Jalal</p> <!-- I use html formatting elment <b> 4. Formatting elements helps to make a text look different in sentence-->
+    <li> <p> <b>Class No:</b> 502</p> </li>
+    <li> <p> <b>Department:</b> Computer Science</p> </li>
+    <li>  <p> <b>Semester;</b> 5th</p> </li>
+    </ul>
+
+    <!-- Creating Table-->
+    <table>
+        <caption>  <b> Marks Sheet </b> </caption> <!-- we can use caption element to give caption to our entire table -->
+     <tr>
+      <th>Subject</th>
+      <th>Marks</th>
+     </tr>
+     <tr>
+      <td>C++</td>
+      <td>70</td>
+     </tr>
+     <tr>
+      <td>Networking</td>
+      <td> 75</td>
+     </tr>
+     <tr>
+      <td>Database System</td>
+      <td>80</td>
+     </tr>
+     <tr>
+      <td>Object Oriented Programming</td>
+      <td>70</td>
+     </tr>
+</table>
+
+<!--Creating Contact form-->
+<h2>Contact Form</h2>
+<form>
+     <label for="name">Name:</label> <br>
+     <input type="text" id="name" name="name"> <br><br>
+
+     <label for="email">Email:</label><br>
+     <input type="email" id="email" name="email"> <br><br>
+
+     <label for="message">Message:</label><br>
+     <textarea id="message" name="message" rows="5" cols="20"></textarea><br><br> <!--- We use <textarea> element to creates a multi-line text input fiedl in a form.-->
+
+     <button type="submit">Submit</button> <!-- Submit Button -->
+</form>
+</body>
+</html>
