@@ -1,0 +1,62 @@
+body {
+  background-color: lightblue;
+  margin: 30px;
+  
+}
+
+h1 {
+  color: black;
+}
+
+p {
+  font-family: verdana;
+  font-size: 15px;
+  
+}
+img {
+  border-radius: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+main {
+  margin: 20px;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.537);
+   border-radius: 10px;
+  outline: 4px solid rgba(19, 13, 13, 0.687);
+}
+
+table  th, td {
+  border: 3px rgba(26, 22, 22, 0.119) solid;
+  border-collapse: collapse;
+  padding: 10px;
+  background-color: rgba(93, 155, 113, 0.233);
+}
+
+h2 {
+  color: navy;
+}
+
+h3 {
+  color: darkblue;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  color: gray;
+  margin-top: 15px;
+}
+
+div {
+  margin-top: 20px;
+  padding: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.205);
+  border-radius: 10px;
+  background-color: rgba(191, 197, 204, 0.705);
+}
+ul {
+  list-style-type: circle;
+}
