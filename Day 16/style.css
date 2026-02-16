@@ -1,0 +1,14 @@
+div{
+    background-color: rgb(212, 171, 171);
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    border: solid rgb(2, 2, 2), 2px;
+}
+button{
+    background-color: beige;
+    color: black;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
