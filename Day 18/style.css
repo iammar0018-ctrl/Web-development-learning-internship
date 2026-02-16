@@ -1,0 +1,25 @@
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}  
+form{
+    background-color:rgb(237, 232, 224);
+    width: 180px;
+    border: 1px solid rgb(114, 112, 112);
+}  
+button{
+    background-color: rgb(28, 13, 43);
+    color: #e2e6e9;
+    font-weight: bold;
+
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    color: #333;
+    font-weight: bold;
+    
+}
+#errorMsg{
+    color:red;
+}
